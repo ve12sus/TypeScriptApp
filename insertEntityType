@@ -1,0 +1,32 @@
+INSERT INTO entity_types (type_id, type)
+    VALUES (0, 'urn:entity:actor');
+INSERT INTO entity_types (type_id, type)
+    VALUES (1, 'urn:entity:album');
+INSERT INTO entity_types (type_id, type)
+    VALUES (2, 'urn:entity:artist');
+INSERT INTO entity_types (type_id, type)
+    VALUES (3, 'urn:entity:author');
+INSERT INTO entity_types (type_id, type)
+    VALUES (4, 'urn:entity:book');
+INSERT INTO entity_types (type_id, type)
+    VALUES (5, 'urn:entity:director');
+INSERT INTO entity_types (type_id, type)
+    VALUES (6, 'urn:entity:fashion_brand');
+INSERT INTO entity_types (type_id, type)
+    VALUES (7, 'urn:entity:hotel');
+INSERT INTO entity_types (type_id, type)
+    VALUES (8, 'urn:entity:movie');
+INSERT INTO entity_types (type_id, type)
+    VALUES (9, 'urn:entity:podcast');
+INSERT INTO entity_types (type_id, type)
+    VALUES (10, 'urn:entity:restaurant');
+INSERT INTO entity_types (type_id, type)
+    VALUES (11, 'urn:entity:tv_show');
+INSERT INTO entity_types (type_id, type)
+    VALUES (12, 'urn:entity:videogame');
+INSERT INTO entity_types (type_id, type)
+    VALUES (13, 'urn:entity:brand');
+INSERT INTO entity_types (type_id, type)
+    VALUES (14, 'urn:entity:person');
+INSERT INTO entity_types (type_id, type)
+    VALUES (15, 'urn:entity:destination');

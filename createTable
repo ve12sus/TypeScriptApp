@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS entity_types;
+DROP TABLE IF EXISTS entity_data;
+
+CREATE TABLE entity_types(
+   type_id        INTEGER     UNIQUE    NOT NULL,
+   type           TEXT    NOT NULL
+);
+
+CREATE TABLE entity_data(
+   entity_id      TEXT    PRIMARY KEY   NOT NULL,
+   type_id        INTEGER     REFERENCES entity_types (type_id)     NOT NULL,
+   data           JSONB
+);
