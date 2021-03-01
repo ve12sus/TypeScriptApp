@@ -25,8 +25,8 @@ function getTypeId(entityType : string) {
   });
 }
 
-export function getRestOfData(obj : QlooGraphEntity) : string {
-  const cloneWithOutProps : QlooGraphEntityData = { ...obj };
+export function getRestOfData(obj : Partial<QlooGraphEntity>) : string {
+  const cloneWithOutProps : Partial<QlooGraphEntityData> = { ...obj };
   const prop1 : keyof typeof obj = 'entity_id';
   const prop2 : keyof typeof obj = 'types';
   delete cloneWithOutProps[prop1];
